@@ -1,13 +1,15 @@
 import './App.css';
+import Welcome from './componente1';
+import imgspt from './spotify.png';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          1° Música da PlayListGeek!
         </p>
+        <Welcome src={imgspt} />
         <a
           className="App-link"
           href="https://reactjs.org"
