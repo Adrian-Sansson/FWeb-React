@@ -12,7 +12,7 @@ function Calculadora() {
             <input type="number" value={numero1} onChange={(e)=>setNumero1(parseInt(e.target.value))}/>
             <input type="number" value={numero2} onChange={(e)=>setNumero2(parseInt(e.target.value))}/>
             <p>SOMA:{soma}</p>
-            <Link to='/formulario'> Página Contador </Link>
+            <Link to='/contador'> Página Contador </Link>
         </div>
     );
 }

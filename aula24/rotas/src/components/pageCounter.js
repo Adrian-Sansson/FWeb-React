@@ -13,7 +13,7 @@ function Contador() {
         <div>
             <div>{contador}</div>
             <button onClick={adicionarCont}>Adicionar</button>
-            <Link to='/formulario'> Página Principal </Link>
+            <Link to='/formulario'> Página Formulario </Link>
         </div>
     );
 }
